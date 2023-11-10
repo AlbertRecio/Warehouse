@@ -360,6 +360,7 @@ namespace Warehouse
 
         private void tsbNew_Click_1(object sender, EventArgs e)
         {
+
             if (!Convert.ToBoolean(rightsSIn.Rows[0]["NEW"].ToString()))
             {
                 MessageBox.Show("Access Denied!", "Stock In", MessageBoxButtons.OK, MessageBoxIcon.Error);

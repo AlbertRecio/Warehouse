@@ -29,21 +29,41 @@ namespace Warehouse
                         MessageBox.Show("Access Denied!", "Main Form", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
                     }
-
                 }
             }
-
             foreach (Form f in Application.OpenForms)
+            {
+                if (f is FrmMasterfile)
                 {
-                    if (f is Form1)
-                    {
-                        f.Focus();
-                        return;
-                    }
+                    f.Focus();
+                    return;
                 }
+            }
+            new FrmMasterfile().Show();
+            //foreach (DataRow row in DtBinding.Rows)
+            //{
+            //    if (!Convert.ToBoolean(row["VIEW"].ToString()))
+            //    {
+            //        if (row["ModuleName"].ToString() == "Master File")
+            //        {
+            //            MessageBox.Show("Access Denied!", "Main Form", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //            return;
+            //        }
 
-            Form1 c = new Form1();
-                c.Show();
+            //    }
+            //}
+
+            //foreach (Form f in Application.OpenForms)
+            //    {
+            //        if (f is Masterfile)
+            //        {
+            //            f.Focus();
+            //            return;
+            //        }
+            //    }
+
+            //Masterfile c = new Masterfile();
+            //    c.Show();
 
             //FrmMasterfile form = FrmMasterfile.GetInstance();
             //if (!form.Visible)

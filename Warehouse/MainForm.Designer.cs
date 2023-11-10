@@ -44,9 +44,9 @@
             this.passwordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.changePassswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.accountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label1 = new System.Windows.Forms.Label();
             this.stringBuilderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stringBuilderToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,21 +79,21 @@
             // categoryToolStripMenuItem
             // 
             this.categoryToolStripMenuItem.Name = "categoryToolStripMenuItem";
-            this.categoryToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
+            this.categoryToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.categoryToolStripMenuItem.Text = "Items";
             this.categoryToolStripMenuItem.Click += new System.EventHandler(this.CategoryToolStripMenuItem_Click);
             // 
             // categoryToolStripMenuItem1
             // 
             this.categoryToolStripMenuItem1.Name = "categoryToolStripMenuItem1";
-            this.categoryToolStripMenuItem1.Size = new System.Drawing.Size(133, 22);
+            this.categoryToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.categoryToolStripMenuItem1.Text = "Category";
             this.categoryToolStripMenuItem1.Click += new System.EventHandler(this.CategoryToolStripMenuItem1_Click);
             // 
             // warehouseToolStripMenuItem
             // 
             this.warehouseToolStripMenuItem.Name = "warehouseToolStripMenuItem";
-            this.warehouseToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
+            this.warehouseToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.warehouseToolStripMenuItem.Text = "Warehouse";
             this.warehouseToolStripMenuItem.Click += new System.EventHandler(this.WarehouseToolStripMenuItem_Click);
             // 
@@ -170,16 +170,32 @@
             // changePassswordToolStripMenuItem
             // 
             this.changePassswordToolStripMenuItem.Name = "changePassswordToolStripMenuItem";
-            this.changePassswordToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.changePassswordToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.changePassswordToolStripMenuItem.Text = "Change Passsword";
             this.changePassswordToolStripMenuItem.Click += new System.EventHandler(this.changePassswordToolStripMenuItem_Click);
             // 
             // accountToolStripMenuItem
             // 
             this.accountToolStripMenuItem.Name = "accountToolStripMenuItem";
-            this.accountToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.accountToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.accountToolStripMenuItem.Text = "Account";
             this.accountToolStripMenuItem.Click += new System.EventHandler(this.accountToolStripMenuItem_Click);
+            // 
+            // stringBuilderToolStripMenuItem
+            // 
+            this.stringBuilderToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.stringBuilderToolStripMenuItem1});
+            this.stringBuilderToolStripMenuItem.Name = "stringBuilderToolStripMenuItem";
+            this.stringBuilderToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
+            this.stringBuilderToolStripMenuItem.Text = "StringBuilder";
+            this.stringBuilderToolStripMenuItem.Visible = false;
+            // 
+            // stringBuilderToolStripMenuItem1
+            // 
+            this.stringBuilderToolStripMenuItem1.Name = "stringBuilderToolStripMenuItem1";
+            this.stringBuilderToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.stringBuilderToolStripMenuItem1.Text = "StringBuilder";
+            this.stringBuilderToolStripMenuItem1.Click += new System.EventHandler(this.stringBuilderToolStripMenuItem1_Click);
             // 
             // label1
             // 
@@ -189,21 +205,6 @@
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "label1";
-            // 
-            // stringBuilderToolStripMenuItem
-            // 
-            this.stringBuilderToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.stringBuilderToolStripMenuItem1});
-            this.stringBuilderToolStripMenuItem.Name = "stringBuilderToolStripMenuItem";
-            this.stringBuilderToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
-            this.stringBuilderToolStripMenuItem.Text = "StringBuilder";
-            // 
-            // stringBuilderToolStripMenuItem1
-            // 
-            this.stringBuilderToolStripMenuItem1.Name = "stringBuilderToolStripMenuItem1";
-            this.stringBuilderToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.stringBuilderToolStripMenuItem1.Text = "StringBuilder";
-            this.stringBuilderToolStripMenuItem1.Click += new System.EventHandler(this.stringBuilderToolStripMenuItem1_Click);
             // 
             // MainForm
             // 

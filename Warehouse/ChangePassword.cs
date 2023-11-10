@@ -40,12 +40,13 @@ namespace Warehouse
                             if (f is LoginForm)
                             {
                                 f.Focus();
-                                return;
+
                             }
                         }
+                        this.Close();
                         new LoginForm().Show();
                         MessageBox.Show("You have successfully change your password!");
-                        
+                        return;
                     }
 
                 }
