@@ -45,7 +45,6 @@
             this.changePassswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.accountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stringBuilderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.stringBuilderToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -79,21 +78,21 @@
             // categoryToolStripMenuItem
             // 
             this.categoryToolStripMenuItem.Name = "categoryToolStripMenuItem";
-            this.categoryToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.categoryToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.categoryToolStripMenuItem.Text = "Items";
             this.categoryToolStripMenuItem.Click += new System.EventHandler(this.CategoryToolStripMenuItem_Click);
             // 
             // categoryToolStripMenuItem1
             // 
             this.categoryToolStripMenuItem1.Name = "categoryToolStripMenuItem1";
-            this.categoryToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.categoryToolStripMenuItem1.Size = new System.Drawing.Size(133, 22);
             this.categoryToolStripMenuItem1.Text = "Category";
             this.categoryToolStripMenuItem1.Click += new System.EventHandler(this.CategoryToolStripMenuItem1_Click);
             // 
             // warehouseToolStripMenuItem
             // 
             this.warehouseToolStripMenuItem.Name = "warehouseToolStripMenuItem";
-            this.warehouseToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.warehouseToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.warehouseToolStripMenuItem.Text = "Warehouse";
             this.warehouseToolStripMenuItem.Click += new System.EventHandler(this.WarehouseToolStripMenuItem_Click);
             // 
@@ -183,19 +182,10 @@
             // 
             // stringBuilderToolStripMenuItem
             // 
-            this.stringBuilderToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.stringBuilderToolStripMenuItem1});
             this.stringBuilderToolStripMenuItem.Name = "stringBuilderToolStripMenuItem";
-            this.stringBuilderToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
-            this.stringBuilderToolStripMenuItem.Text = "StringBuilder";
-            this.stringBuilderToolStripMenuItem.Visible = false;
-            // 
-            // stringBuilderToolStripMenuItem1
-            // 
-            this.stringBuilderToolStripMenuItem1.Name = "stringBuilderToolStripMenuItem1";
-            this.stringBuilderToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.stringBuilderToolStripMenuItem1.Text = "StringBuilder";
-            this.stringBuilderToolStripMenuItem1.Click += new System.EventHandler(this.stringBuilderToolStripMenuItem1_Click);
+            this.stringBuilderToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.stringBuilderToolStripMenuItem.Text = "Logout";
+            this.stringBuilderToolStripMenuItem.Click += new System.EventHandler(this.stringBuilderToolStripMenuItem_Click);
             // 
             // label1
             // 
@@ -246,6 +236,5 @@
         private System.Windows.Forms.ToolStripMenuItem changePassswordToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem accountToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem stringBuilderToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem stringBuilderToolStripMenuItem1;
     }
 }

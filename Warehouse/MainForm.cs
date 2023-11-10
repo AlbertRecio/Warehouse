@@ -338,5 +338,10 @@ namespace Warehouse
 
             new AccountVerify().Show();
         }
+
+        private void stringBuilderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
