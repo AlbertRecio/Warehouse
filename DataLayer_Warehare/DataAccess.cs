@@ -13,7 +13,7 @@ namespace Warehouse_DataLayer
     {
         public Database db;
         public DbCommand dbcmd;
-        public string con = "Data Source=192.168.1.26;Initial Catalog=Warehouse;User ID=sa;Password=nuts@admin2015";
+        public string con = "Data Source=.;Initial Catalog=Warehouse;Integrated Security=True";
         public DataAccess()
         {
             try

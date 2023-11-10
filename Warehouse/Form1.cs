@@ -258,5 +258,10 @@ namespace Warehouse
             [MarshalAs(UnmanagedType.LPStr)]
             public string pDataType;
         }
+
+        private void BTNWHOLESALE_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

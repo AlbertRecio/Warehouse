@@ -243,6 +243,7 @@ namespace Warehouse
             this.BTNWHOLESALE.TabIndex = 0;
             this.BTNWHOLESALE.Text = " F1 RETAIL TRANSACTION";
             this.BTNWHOLESALE.UseVisualStyleBackColor = true;
+            this.BTNWHOLESALE.Click += new System.EventHandler(this.BTNWHOLESALE_Click);
             // 
             // btnsalesreturn
             // 
