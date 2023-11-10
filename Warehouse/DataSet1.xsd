@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblReleasing" msprop:Generator_TableClassName="tblReleasingDataTable" msprop:Generator_TableVarName="tabletblReleasing" msprop:Generator_RowChangedName="tblReleasingRowChanged" msprop:Generator_TablePropName="tblReleasing" msprop:Generator_RowDeletingName="tblReleasingRowDeleting" msprop:Generator_RowChangingName="tblReleasingRowChanging" msprop:Generator_RowEvHandlerName="tblReleasingRowChangeEventHandler" msprop:Generator_RowDeletedName="tblReleasingRowDeleted" msprop:Generator_RowClassName="tblReleasingRow" msprop:Generator_UserTableName="tblReleasing" msprop:Generator_RowEvArgName="tblReleasingRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="reference" msprop:Generator_ColumnVarNameInTable="columnreference" msprop:Generator_ColumnPropNameInRow="reference" msprop:Generator_ColumnPropNameInTable="referenceColumn" msprop:Generator_UserColumnName="reference" type="xs:string" minOccurs="0" />
+              <xs:element name="Warehouse" msprop:Generator_ColumnVarNameInTable="columnWarehouse" msprop:Generator_ColumnPropNameInRow="Warehouse" msprop:Generator_ColumnPropNameInTable="WarehouseColumn" msprop:Generator_UserColumnName="Warehouse" type="xs:string" minOccurs="0" />
+              <xs:element name="Item_x0020_Description" msprop:Generator_ColumnVarNameInTable="columnItem_Description" msprop:Generator_ColumnPropNameInRow="Item_Description" msprop:Generator_ColumnPropNameInTable="Item_DescriptionColumn" msprop:Generator_UserColumnName="Item Description" type="xs:string" minOccurs="0" />
+              <xs:element name="onhand" msprop:Generator_ColumnVarNameInTable="columnonhand" msprop:Generator_ColumnPropNameInRow="onhand" msprop:Generator_ColumnPropNameInTable="onhandColumn" msprop:Generator_UserColumnName="onhand" type="xs:string" minOccurs="0" />
+              <xs:element name="released" msprop:Generator_ColumnVarNameInTable="columnreleased" msprop:Generator_ColumnPropNameInRow="released" msprop:Generator_ColumnPropNameInTable="releasedColumn" msprop:Generator_UserColumnName="released" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" msprop:Generator_UserColumnName="Remarks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblReceiving" msprop:Generator_TableClassName="tblReceivingDataTable" msprop:Generator_TableVarName="tabletblReceiving" msprop:Generator_RowChangedName="tblReceivingRowChanged" msprop:Generator_TablePropName="tblReceiving" msprop:Generator_RowDeletingName="tblReceivingRowDeleting" msprop:Generator_RowChangingName="tblReceivingRowChanging" msprop:Generator_RowEvHandlerName="tblReceivingRowChangeEventHandler" msprop:Generator_RowDeletedName="tblReceivingRowDeleted" msprop:Generator_RowClassName="tblReceivingRow" msprop:Generator_UserTableName="tblReceiving" msprop:Generator_RowEvArgName="tblReceivingRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="reference" msprop:Generator_ColumnVarNameInTable="columnreference" msprop:Generator_ColumnPropNameInRow="reference" msprop:Generator_ColumnPropNameInTable="referenceColumn" msprop:Generator_UserColumnName="reference" type="xs:string" minOccurs="0" />
+              <xs:element name="Warehouse" msprop:Generator_ColumnVarNameInTable="columnWarehouse" msprop:Generator_ColumnPropNameInRow="Warehouse" msprop:Generator_ColumnPropNameInTable="WarehouseColumn" msprop:Generator_UserColumnName="Warehouse" type="xs:string" minOccurs="0" />
+              <xs:element name="Item_x0020_Description" msprop:Generator_ColumnVarNameInTable="columnItem_Description" msprop:Generator_ColumnPropNameInRow="Item_Description" msprop:Generator_ColumnPropNameInTable="Item_DescriptionColumn" msprop:Generator_UserColumnName="Item Description" type="xs:string" minOccurs="0" />
+              <xs:element name="onhand" msprop:Generator_ColumnVarNameInTable="columnonhand" msprop:Generator_ColumnPropNameInRow="onhand" msprop:Generator_ColumnPropNameInTable="onhandColumn" msprop:Generator_UserColumnName="onhand" type="xs:string" minOccurs="0" />
+              <xs:element name="received" msprop:Generator_ColumnVarNameInTable="columnreceived" msprop:Generator_ColumnPropNameInRow="received" msprop:Generator_ColumnPropNameInTable="receivedColumn" msprop:Generator_UserColumnName="received" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" msprop:Generator_UserColumnName="Remarks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblAdjustment" msprop:Generator_TableClassName="tblAdjustmentDataTable" msprop:Generator_TableVarName="tabletblAdjustment" msprop:Generator_RowChangedName="tblAdjustmentRowChanged" msprop:Generator_TablePropName="tblAdjustment" msprop:Generator_RowDeletingName="tblAdjustmentRowDeleting" msprop:Generator_RowChangingName="tblAdjustmentRowChanging" msprop:Generator_RowEvHandlerName="tblAdjustmentRowChangeEventHandler" msprop:Generator_RowDeletedName="tblAdjustmentRowDeleted" msprop:Generator_RowClassName="tblAdjustmentRow" msprop:Generator_UserTableName="tblAdjustment" msprop:Generator_RowEvArgName="tblAdjustmentRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="reference" msprop:Generator_ColumnVarNameInTable="columnreference" msprop:Generator_ColumnPropNameInRow="reference" msprop:Generator_ColumnPropNameInTable="referenceColumn" msprop:Generator_UserColumnName="reference" type="xs:string" minOccurs="0" />
+              <xs:element name="Warehouse" msprop:Generator_ColumnVarNameInTable="columnWarehouse" msprop:Generator_ColumnPropNameInRow="Warehouse" msprop:Generator_ColumnPropNameInTable="WarehouseColumn" msprop:Generator_UserColumnName="Warehouse" type="xs:string" minOccurs="0" />
+              <xs:element name="Item_x0020_Description" msprop:Generator_ColumnVarNameInTable="columnItem_Description" msprop:Generator_ColumnPropNameInRow="Item_Description" msprop:Generator_ColumnPropNameInTable="Item_DescriptionColumn" msprop:Generator_UserColumnName="Item Description" type="xs:string" minOccurs="0" />
+              <xs:element name="onhand" msprop:Generator_ColumnVarNameInTable="columnonhand" msprop:Generator_ColumnPropNameInRow="onhand" msprop:Generator_ColumnPropNameInTable="onhandColumn" msprop:Generator_UserColumnName="onhand" type="xs:string" minOccurs="0" />
+              <xs:element name="adjustment" msdata:Caption="released" msprop:Generator_ColumnVarNameInTable="columnadjustment" msprop:Generator_ColumnPropNameInRow="adjustment" msprop:Generator_ColumnPropNameInTable="adjustmentColumn" msprop:Generator_UserColumnName="adjustment" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" msprop:Generator_UserColumnName="Remarks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TblTransfer" msprop:Generator_TableClassName="TblTransferDataTable" msprop:Generator_TableVarName="tableTblTransfer" msprop:Generator_TablePropName="TblTransfer" msprop:Generator_RowDeletingName="TblTransferRowDeleting" msprop:Generator_RowChangingName="TblTransferRowChanging" msprop:Generator_RowEvHandlerName="TblTransferRowChangeEventHandler" msprop:Generator_RowDeletedName="TblTransferRowDeleted" msprop:Generator_UserTableName="TblTransfer" msprop:Generator_RowChangedName="TblTransferRowChanged" msprop:Generator_RowEvArgName="TblTransferRowChangeEvent" msprop:Generator_RowClassName="TblTransferRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="reference" msprop:Generator_ColumnVarNameInTable="columnreference" msprop:Generator_ColumnPropNameInRow="reference" msprop:Generator_ColumnPropNameInTable="referenceColumn" msprop:Generator_UserColumnName="reference" type="xs:string" minOccurs="0" />
+              <xs:element name="Warehouse" msprop:Generator_ColumnVarNameInTable="columnWarehouse" msprop:Generator_ColumnPropNameInRow="Warehouse" msprop:Generator_ColumnPropNameInTable="WarehouseColumn" msprop:Generator_UserColumnName="Warehouse" type="xs:string" minOccurs="0" />
+              <xs:element name="Item_x0020_Description" msprop:Generator_ColumnVarNameInTable="columnItem_Description" msprop:Generator_ColumnPropNameInRow="Item_Description" msprop:Generator_ColumnPropNameInTable="Item_DescriptionColumn" msprop:Generator_UserColumnName="Item Description" type="xs:string" minOccurs="0" />
+              <xs:element name="onhand" msprop:Generator_ColumnVarNameInTable="columnonhand" msprop:Generator_ColumnPropNameInRow="onhand" msprop:Generator_ColumnPropNameInTable="onhandColumn" msprop:Generator_UserColumnName="onhand" type="xs:string" minOccurs="0" />
+              <xs:element name="transfer" msprop:Generator_ColumnVarNameInTable="columntransfer" msprop:Generator_ColumnPropNameInRow="transfer" msprop:Generator_ColumnPropNameInTable="transferColumn" msprop:Generator_UserColumnName="transfer" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" msprop:Generator_UserColumnName="Remarks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblMasterfile" msprop:Generator_TableClassName="tblMasterfileDataTable" msprop:Generator_TableVarName="tabletblMasterfile" msprop:Generator_RowChangedName="tblMasterfileRowChanged" msprop:Generator_TablePropName="tblMasterfile" msprop:Generator_RowDeletingName="tblMasterfileRowDeleting" msprop:Generator_RowChangingName="tblMasterfileRowChanging" msprop:Generator_RowEvHandlerName="tblMasterfileRowChangeEventHandler" msprop:Generator_RowDeletedName="tblMasterfileRowDeleted" msprop:Generator_RowClassName="tblMasterfileRow" msprop:Generator_UserTableName="tblMasterfile" msprop:Generator_RowEvArgName="tblMasterfileRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" msdata:Caption="reference" msprop:Generator_ColumnVarNameInTable="columnCode" msprop:Generator_ColumnPropNameInRow="Code" msprop:Generator_ColumnPropNameInTable="CodeColumn" msprop:Generator_UserColumnName="Code" type="xs:string" minOccurs="0" />
+              <xs:element name="Item_x0020_Description" msprop:Generator_ColumnVarNameInTable="columnItem_Description" msprop:Generator_ColumnPropNameInRow="Item_Description" msprop:Generator_ColumnPropNameInTable="Item_DescriptionColumn" msprop:Generator_UserColumnName="Item Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Category" msprop:Generator_ColumnVarNameInTable="columnCategory" msprop:Generator_ColumnPropNameInRow="Category" msprop:Generator_ColumnPropNameInTable="CategoryColumn" msprop:Generator_UserColumnName="Category" type="xs:string" minOccurs="0" />
+              <xs:element name="Warehouse" msprop:Generator_ColumnVarNameInTable="columnWarehouse" msprop:Generator_ColumnPropNameInRow="Warehouse" msprop:Generator_ColumnPropNameInTable="WarehouseColumn" msprop:Generator_UserColumnName="Warehouse" type="xs:string" minOccurs="0" />
+              <xs:element name="onhand" msprop:Generator_ColumnVarNameInTable="columnonhand" msprop:Generator_ColumnPropNameInRow="onhand" msprop:Generator_ColumnPropNameInTable="onhandColumn" msprop:Generator_UserColumnName="onhand" type="xs:string" minOccurs="0" />
+              <xs:element name="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" msprop:Generator_UserColumnName="Remarks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblCategory" msprop:Generator_TableClassName="tblCategoryDataTable" msprop:Generator_TableVarName="tabletblCategory" msprop:Generator_RowChangedName="tblCategoryRowChanged" msprop:Generator_TablePropName="tblCategory" msprop:Generator_RowDeletingName="tblCategoryRowDeleting" msprop:Generator_RowChangingName="tblCategoryRowChanging" msprop:Generator_RowEvHandlerName="tblCategoryRowChangeEventHandler" msprop:Generator_RowDeletedName="tblCategoryRowDeleted" msprop:Generator_RowClassName="tblCategoryRow" msprop:Generator_UserTableName="tblCategory" msprop:Generator_RowEvArgName="tblCategoryRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" msdata:Caption="reference" msprop:Generator_ColumnVarNameInTable="columnCode" msprop:Generator_ColumnPropNameInRow="Code" msprop:Generator_ColumnPropNameInTable="CodeColumn" msprop:Generator_UserColumnName="Code" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msdata:Caption="Warehouse" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" msprop:Generator_UserColumnName="Remarks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblWarehouse" msprop:Generator_TableClassName="tblWarehouseDataTable" msprop:Generator_TableVarName="tabletblWarehouse" msprop:Generator_RowChangedName="tblWarehouseRowChanged" msprop:Generator_TablePropName="tblWarehouse" msprop:Generator_RowDeletingName="tblWarehouseRowDeleting" msprop:Generator_RowChangingName="tblWarehouseRowChanging" msprop:Generator_RowEvHandlerName="tblWarehouseRowChangeEventHandler" msprop:Generator_RowDeletedName="tblWarehouseRowDeleted" msprop:Generator_RowClassName="tblWarehouseRow" msprop:Generator_UserTableName="tblWarehouse" msprop:Generator_RowEvArgName="tblWarehouseRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" msdata:Caption="reference" msprop:Generator_ColumnVarNameInTable="columnCode" msprop:Generator_ColumnPropNameInRow="Code" msprop:Generator_ColumnPropNameInTable="CodeColumn" msprop:Generator_UserColumnName="Code" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msdata:Caption="Warehouse" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" msprop:Generator_UserColumnName="Remarks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
