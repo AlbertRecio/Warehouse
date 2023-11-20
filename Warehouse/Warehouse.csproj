@@ -90,10 +90,10 @@
     </Compile>
     <Compile Include="CompareValidator.cs" />
     <Compile Include="CRAdjustment.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
       <DependentUpon>CRAdjustment.rpt</DependentUpon>
       <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
     </Compile>
     <Compile Include="CRCategory.cs">
       <AutoGen>True</AutoGen>
